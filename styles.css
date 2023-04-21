@@ -51,7 +51,7 @@ footer{
 /* WELCOME */
 
 .welcome-section{
-    height: 90vh;
+    height: 100vh;
 	width: 100%;
     background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(20, 49, 30, 0.7)),
         url(Assets/LAS_Shop.jpeg);
@@ -61,7 +61,7 @@ footer{
 }
 
 .welcome-body{
-    padding-top: 10%;
+    padding-top: 9%;
 }
 
 .welcome-card{
@@ -72,7 +72,7 @@ footer{
 /* ABOUT */
 
 .about-title-section{
-    height: 90vh;
+    height: 100vh;
 	width: 100%;
     background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
         url(Assets/LAS_Owners.jpeg);
@@ -82,7 +82,7 @@ footer{
 }
 
 .about-body{
-    padding-top: 10%;
+    padding-top: 9%;
 }
 
 .about-card{
