@@ -8,7 +8,6 @@ element{
 
 *{
     font-family: 'Rubik', sans-serif;
-    color: black;
 }
 
 body{
@@ -23,17 +22,18 @@ body{
     transition: background-color 0.5s ease-in-out;
 }
 
+.navbar-transparent:hover{
+    background-color:  #14311E !important;
+    
+}
+
 .navbar-nav li a {
     font-family: "Arial", sans-serif;
 }
 
-.navbar-transparent:hover{
-    background-color:  #25633AE6 !important;
-    
-}
 
 .navbar-transparent:hover .navbar-nav li.nav-item a.nav-link {
-    color: white;
+    color: #F5F5F5;
 }
 
 .navbar-logo {
@@ -49,10 +49,10 @@ footer{
 
 /* WELCOME */
 
-.home-header{
-    min-height: 100vh;
+.welcome-section{
+    height: 90vh;
 	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.85), rgba(149, 187, 114, 0.65)),
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(20, 49, 30, 0.7)),
         url(Assets/LAS_Shop.jpeg);
     background-size: cover;
     background-position: center;
@@ -67,13 +67,36 @@ footer{
 
 .choice-card{
     background-color: #95BB72;
+    transition: all 0.3s ease-in-out;
+}
+
+.choice-card:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.deuter:hover {
+    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+        url('Assets/LAS_Deuterocohnia_Brevifolia.jpeg');
+}
+
+.ferraria:hover{
+    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+        url('Assets/LAS_Ferraria_Crispa.jpeg');
+}
+
+.geom:hover{
+    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+        url('Assets/LAS_Myrtillocactus_Geometrizans.jpeg');
 }
 
 /* MISC */
 
 .icon {
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
     vertical-align: -.125em;
     fill: #B98389;
 }
@@ -86,5 +109,15 @@ a{
     text-align: center;
 }
 
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
   
-
+.flex-box{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
