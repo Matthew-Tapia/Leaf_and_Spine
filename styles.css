@@ -61,12 +61,12 @@ footer{
 }
 
 .welcome-body{
-    padding-top: 9%;
+    padding-top: 7%;
 }
 
 .welcome-card{
     background-color: #95BB728C;
-    padding: 4%;
+    padding: 2.5%;
 }
 
 /* ABOUT */
@@ -82,12 +82,12 @@ footer{
 }
 
 .about-body{
-    padding-top: 9%;
+    padding-top: 7%;
 }
 
 .about-card{
     background-color: #DDAAB08C;
-    padding: 4%;
+    padding: 2.5%;
 }
 
 /* CHOICES */
