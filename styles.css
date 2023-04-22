@@ -69,27 +69,6 @@ footer{
     padding: 2.5%;
 }
 
-/* ABOUT */
-
-.about-title-section{
-    height: 100vh;
-	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
-        url(Assets/LAS_Owners.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.about-body{
-    padding-top: 7%;
-}
-
-.about-card{
-    background-color: #DDAAB08C;
-    padding: 2.5%;
-}
-
 /* CHOICES */
 
 .choice-section{
@@ -125,6 +104,49 @@ footer{
         url('Assets/LAS_Myrtillocactus_Geometrizans.jpeg');
 }
 
+/* ABOUT OWNER*/
+
+.about-title-section{
+    height: 100vh;
+	width: 100%;
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
+        url(Assets/LAS_Owners.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-body{
+    padding-top: 7%;
+}
+
+.about-card{
+    background-color: #DDAAB08C;
+    padding: 2.5%;
+}
+
+/* ABOUT MISSION */
+
+.mission-text-col{
+    padding-top: 7%;
+}
+
+.mission-img {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+/* ABOUT LOCATION */
+
+.map-embed{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+.location-text-col{
+    padding-top: 7%;
+}
+
 /* MISC */
 
 .icon {
@@ -154,3 +176,4 @@ a{
     align-items: center;
     justify-content: center;
 }
+
