@@ -147,6 +147,10 @@ footer{
     padding-top: 7%;
 }
 
+.location-image-col iframe{
+    width: 100%;
+}
+
 /* MISC */
 
 .icon {
