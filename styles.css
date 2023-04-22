@@ -30,17 +30,14 @@ body{
     height: 5.0rem;
 }
 
-/* HOME NAVBAR */
-
-.navbar-home:hover{
+.navbar-green:hover{
     background-color:  #14311E !important;
 }
 
-/* ABOUT NAVBAR */
-
-.navbar-about:hover{
+.navbar-pink:hover{
     background-color:  #B98389 !important;
 }
+
 
 /* FOOTER */
 
@@ -151,6 +148,41 @@ footer{
     width: 100%;
 }
 
+/* CONTACT CARD */
+
+.contact-card{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-card-body{
+    padding: 0;
+}
+
+/* CONTACT FORM */
+
+.contact-form-group input {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    padding: 3%;
+}
+
+.contact-form-btn{
+    margin-top: 2%;
+}
+
+
+/* CONTACT INFO */
+
+.contact-info {
+    margin: 0;
+    padding: 3%;
+    background-color: #B98389;
+    border-radius: 1%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
 /* MISC */
 
 .icon {
@@ -180,4 +212,3 @@ a{
     align-items: center;
     justify-content: center;
 }
-
