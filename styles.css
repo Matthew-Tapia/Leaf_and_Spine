@@ -55,6 +55,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-y: auto;
 }
 
 .welcome-body{
@@ -64,6 +65,7 @@ footer{
 .welcome-card{
     background-color: #95BB728C;
     padding: 2.5%;
+    max-height: 100%;
 }
 
 /* CHOICES */
@@ -144,6 +146,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-y: auto;
 }
 
 .about-body{
