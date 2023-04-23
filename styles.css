@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #F0F0F0;
+    background-color: #E9E9E9;
 }
 
 /* NAVBAR */
@@ -15,7 +15,7 @@ body{
 }
 
 .navbar:hover .navbar-nav li.nav-item a.nav-link {
-    color: #F5F5F5;
+    color: #E9E9E9;
 }
 
 .navbar-logo {
@@ -49,7 +49,7 @@ footer{
 .welcome-section{
     height: 100vh;
 	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(240, 240, 240, 1.0), rgba(20, 49, 30, 0.7)),
+    background-image: linear-gradient(to bottom, rgba(233, 233, 233, 1.0), rgba(20, 49, 30, 0.7)),
         url(Assets/LAS_Shop.jpeg);
     background-size: cover;
     background-position: center;
@@ -70,7 +70,7 @@ footer{
 /* CHOICES */
 
 .choice-section{
-    background-color: #F0F0F0;
+    background-color: #E9E9E9;
 }
 
 .choice-card{
@@ -155,7 +155,7 @@ footer{
     display: flex;
     align-items: flex-end;
     background-color: #25633A;
-    color: #F0F0F0;
+    color: #E9E9E9;
 }
 
 .review-card{
@@ -187,7 +187,7 @@ footer{
 .about-title-section{
     height: 100vh;
 	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(240, 240, 240, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
+    background-image: linear-gradient(to bottom, rgba(233, 233, 233, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
         url(Assets/LAS_Owners.jpeg);
     background-size: cover;
     background-position: center;
@@ -292,7 +292,7 @@ footer{
 
 .nav-tabs .nav-link.active{
     background-color: #14311E;
-    color: #F0F0F0; 
+    color: #E9E9E9; 
 }
 
 .hours-tab-content{
