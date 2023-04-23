@@ -88,18 +88,22 @@ footer{
 }
 
 .deuter:hover {
-    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+    background-image: linear-gradient(rgba(149, 187, 114, 0.5), rgba(149, 187, 114, 0.5)),
         url('Assets/LAS_Deuterocohnia_Brevifolia.jpeg');
+
+    color: transparent;
 }
 
 .ferraria:hover{
-    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+    background-image: linear-gradient(rgba(149, 187, 114, 0.5), rgba(149, 187, 114, 0.5)),
         url('Assets/LAS_Ferraria_Crispa.jpeg');
+    color: transparent;
 }
 
 .geom:hover{
-    background-image: linear-gradient(rgba(149, 187, 114, 0.7), rgba(149, 187, 114, 0.7)),
+    background-image: linear-gradient(rgba(149, 187, 114, 0.5), rgba(149, 187, 114, 0.5)),
         url('Assets/LAS_Myrtillocactus_Geometrizans.jpeg');
+    color: transparent;
 }
 
 /* PHOTO GALLERY */
@@ -146,6 +150,7 @@ footer{
 
 .review-card{
     background-color: #95BB72;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .avatar {
