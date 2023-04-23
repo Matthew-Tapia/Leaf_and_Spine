@@ -139,6 +139,16 @@ footer{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  padding-top: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
 /* REVIEWS */
 
 .review-footer {
