@@ -3,7 +3,7 @@ element{
     --secondary-color: #25633A;
     --primary-bg-color: #95BB72;
     --secondary-bg-color: #B98389;
-    --alt-color: ##F0F0F0;
+    --alt-color: #F0F0F0;
 }
 
 *{
@@ -219,6 +219,50 @@ footer{
     background-color: #B98389;
     border-radius: 1%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* STORE STATUS */
+
+.status-closed{
+    color: #B98389;
+}
+
+.status-open{
+    color: #25633A;
+}
+
+/* HOURS */
+
+.nav-link { 
+    color: black; 
+}
+
+.nav-link:hover {
+    color: #25633A;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #14311E;
+    color: #F0F0F0; 
+}
+
+.hours-tab-content{
+    background-color: #95BB72;
+    border-top-left-radius: 0.5%;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.hours-table{
+    border: 0;
+    border-radius: 5%;
+}
+
+.hours-table > tbody > tr:last-child > td,
+.hours-table > tbody > tr:last-child > th {
+  border-bottom: none;
 }
 
 /* MISC */
