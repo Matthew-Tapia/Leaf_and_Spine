@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
     
   </head>
   <body>
@@ -54,12 +57,48 @@
             <div class="card welcome-card">
               <h1 class="display-4">Leaf and Spine</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque lacus, eleifend id velit nec, vulputate molestie velit. Nulla purus sem, varius sed porta vel, hendrerit a purus. In sed auctor mauris. Etiam id pellentesque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sagittis, dolor nec ullamcorper auctor, nisi nisi ultrices neque, eu semper neque ante eu elit. Nullam volutpat congue condimentum. Proin ac dictum dui. Vestibulum eget imperdiet velit. Maecenas et laoreet velit, at egestas mi. Etiam suscipit, neque ac dignissim luctus, turpis quam faucibus ligula, dictum aliquam lectus metus in justo. Etiam luctus scelerisque massa eget imperdiet. Ut quis porttitor sapien. Maecenas placerat, massa vel placerat malesuada, eros sapien laoreet turpis, nec tincidunt lacus lacus at mi. Vestibulum volutpat purus vitae nibh elementum consequat eu eget erat.</p>
-              <a href="gallery.html" class="btn btn-outline-dark btn-lg">EXPLORE MORE</a>  
+              <a href="#gallery-section" class="btn btn-outline-dark btn-lg">EXPLORE MORE</a>  
             </div>    
           </div>
         </section>
 
+        <!-- GALLERY -->
+        <section id="gallery-section" class="gallery-section">
+          <h1 class="display-4">Photo Gallery</h1>
 
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-8 carousel-col">
+                <div id="myCarousel" class="carousel slide py-3 mx-auto" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Assets/LAS_Plant_1.jpeg" class="d-block w-100 flex-img carousel-img" alt="I1">
+                    </div>
+                    
+                    <!-- LOAD REST OF IMAGES W/ JAVASCRIPT -->
+      
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4 desc-col">
+                <div class="card desc-card">
+                  <div class="card-body">
+                    <h2>Description</h2>
+                    <p class="desc-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis ex euismod, elementum quam quis, lobortis massa. Suspendisse ut urna eu justo malesuada finibus non et dolor. Nullam rutrum lobortis massa, auctor posuere mi elementum eu. Donec viverra lorem ut sapien tincidunt, a posuere ex rutrum. Aliquam erat volutpat. Fusce semper velit libero, ac molestie nisi viverra id. Sed congue, lectus vel lacinia laoreet, ipsum mauris malesuada sapien, at cursus felis mauris nec ipsum. Duis finibus lacus quis hendrerit varius. Praesent rhoncus lectus enim, eu bibendum turpis lacinia eget.</p>
+                  </div>  
+                </div>  
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- OWNERS CHOICES -->
         <section class="py-5 choice-section">
           <div class="container">
             <h1 class="display-4">Owner's Choices</h1>
@@ -98,6 +137,9 @@
           </div>
 
         </section>
+
+        
+
       </main>
 
       <!-- FOOTER -->
@@ -119,7 +161,6 @@
     </div>
 
 
-    <script src="../app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
-  </body>
+    <script src="app.js"></script>
+    </body>
 </html>

@@ -3,7 +3,7 @@ element{
     --secondary-color: #25633A;
     --primary-bg-color: #95BB72;
     --secondary-bg-color: #B98389;
-    --alt-color: #F5F5F5;
+    --alt-color: ##F0F0F0;
 }
 
 *{
@@ -11,7 +11,7 @@ element{
 }
 
 body{
-    background-color: #F5F5F5;
+    background-color: #F0F0F0;
 }
 
 /* NAVBAR */
@@ -50,7 +50,7 @@ footer{
 .welcome-section{
     height: 100vh;
 	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(20, 49, 30, 0.7)),
+    background-image: linear-gradient(to bottom, rgba(240, 240, 240, 1.0), rgba(20, 49, 30, 0.7)),
         url(Assets/LAS_Shop.jpeg);
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@ footer{
 /* CHOICES */
 
 .choice-section{
-    background-color: #F5F5F5;
+    background-color: #F0F0F0;
 }
 
 .choice-card{
@@ -101,12 +101,45 @@ footer{
         url('Assets/LAS_Myrtillocactus_Geometrizans.jpeg');
 }
 
+/* PHOTO GALLERY */
+
+.gallery-section{
+    margin-top: 6%;
+}
+
+.gallery-desc-container {
+    display: flex;
+    align-items: center;
+}
+
+.carousel{
+    width: 60%;
+    height: 60%;
+}
+
+.carousel-img{
+    border-radius: 3%;
+    object-fit: cover;
+    max-height: 100%;
+    border: 1px solid #14311E;
+}
+
+.desc-col{
+    padding-top: 12%;
+    padding-bottom: 5%;
+}
+
+.desc-card{
+    background-color: #95BB72;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
 /* ABOUT OWNER*/
 
 .about-title-section{
     height: 100vh;
 	width: 100%;
-    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
+    background-image: linear-gradient(to bottom, rgba(240, 240, 240, 1.0), rgba(185, 131, 137, 0.4), rgba(185, 131, 137, 0.5), rgba(185, 131, 137, 0.6), rgba(185, 131, 137, 0.7)),
         url(Assets/LAS_Owners.jpeg);
     background-size: cover;
     background-position: center;
@@ -161,11 +194,16 @@ footer{
 /* CONTACT FORM */
 
 .contact-form-group input {
-    margin-bottom: 10px;
+    margin-bottom: 2%;
+}
+
+.contact-form-group label {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .contact-form {
-    padding: 3%;
+    padding: 1%;
 }
 
 .contact-form-btn{
